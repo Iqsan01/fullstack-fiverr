@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 const { Schema } = mongoose;
 
 const GigSchema = new Schema({
-    useriId: {
+    userId: {
         type: String,
         required: true,
     },
@@ -15,11 +15,11 @@ const GigSchema = new Schema({
         required: true,
     },
     totalStars: {
-        type: String,
+        type: Number,
         default: 0,
     },
     starNumber: {
-        type: String,
+        type: Number,
         default: 0,
     },
     cat: {
@@ -27,7 +27,7 @@ const GigSchema = new Schema({
         required: true,
     },
     price: {
-        type: String,
+        type: Number,
         required: true,
     },
     cover: {
