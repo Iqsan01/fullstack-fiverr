@@ -1,10 +1,17 @@
 # fullstack-fiverr
-On the backend side :<br> 
-using MERN stack app with Stripe payment <br>
+![Alt Text](https://github.com/Iqsan01/fullstack-fiverr/blob/743be4a96bcc9b49e15c7131caf3119d6ffb0f51/fiverr.JPG)
 
-On the frotend side :<br> 
-using React, hooks, stripe payment gate, react query <br>
+<p align="center">On the backend side :</p>
+
+<p align="center">using MERN stack app with Stripe payment</p>
+
+<p align="center">On the frotend side :</p>
+
+<p align="center">using React, hooks, stripe payment gate, react query</p>
 
 
-Run frontend : yarn run dev <br>
-Run backend : yarn start
+
+
+
+run client : yarn run dev <br>
+run server : yarn start
